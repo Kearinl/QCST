@@ -76,13 +76,20 @@ To use the QCST framework, follow these steps:
 2. **Set Up MySQL Database**:
    - Install MySQL on your local machine.
    - Run the provided SQL scripts to create the necessary database and tables.
-
-3. **Unity Setup**:
-   - Open the Unity project included in this repository.
-   - Ensure you have the necessary tools to connect Unity with MySQL (e.g., MySQL Connector for .NET).
-
+     
+3. **Choose Your Language**:
+   - C#: Open the Unity project and ensure you have the MySQL Connector for .NET installed to connect Unity with MySQL.
+   - Java: Use a suitable IDE, add the necessary MySQL driver, and run the provided Java code.
+   - Python: Ensure you have the required libraries (like mysql-connector-python) and run the Python script in your environment.
+   - C++: Use a C++ compiler, link against the MySQL library, and run the provided C++ code.
+   - JavaScript: Set up a Node.js environment, install the necessary MySQL package, and execute the JavaScript code.
+   - Kotlin: Use an IDE like IntelliJ, ensure the MySQL driver is included, and run the Kotlin script.
+   - R: Install the required packages to connect to MySQL and run the R script.
+   - Scala: Use an appropriate build tool like SBT, include the MySQL dependency, and run the Scala code.
+   - Swift: Set up a Swift environment with the necessary MySQL library and run the Swift script.
+   - Go: Ensure you have the MySQL driver for Go and execute the provided Go code.
 4. **Run the Simulation**:
-   - Play the Unity scene to start the quantum cognitive simulation and observe how the AI learns and adapts.
+   - Execute the code in your chosen programming language to start the quantum cognitive simulation. Observe how the AI learns and adapts, and integrate it into your own projects to utilize its capabilities.
 
 ## Contributing
 
