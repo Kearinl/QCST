@@ -38,11 +38,11 @@
 
 ## Implementation
 
-The QCST algorithm is implemented in C# and can be utilized within Unity 3D. It also incorporates a MySQL database for storing and accessing learned experiences. The project includes the following components:
+The QCST algorithm is implemented across multiple programming languages, making it versatile for various platforms and applications. It incorporates a MySQL database for storing and accessing learned experiences. The project includes the following components:
 
-- **Quantum Cognitive Simulation**: A Unity script that simulates quantum computations and their impact on neural functions.
+- **Quantum Cognitive Simulation**: Scripts in C#, Java, Python, C++, JavaScript, Kotlin, R, Scala, Swift, and Go that simulate quantum computations and their impact on neural functions.
 - **MySQL Database Setup**: SQL scripts to create and manage a local MySQL database for storing learned data.
-- **Learning Mechanism**: Reinforcement learning components that allow the AI to adapt and improve its performance over time.
+- **Learning Mechanism**: Reinforcement learning components available in different languages that allow the AI to adapt and improve its performance over time.
 
 ## Example Usage
 
