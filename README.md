@@ -16,21 +16,25 @@
 
 5. **Emergent Behavior**: QCST encourages the development of AI systems that exhibit emergent behavior, capable of adapting and evolving based on interactions with their environment.
 
-## Vibration Frequency Options
+## Parameters
 
-In the QCST framework, you have the flexibility to choose the vibration frequency based on your project goals. Here are two options:
+1. **Quantum Superposition Strength (`quantumSuperpositionStrength`)**:
+   - Type: `float`
+   - Description: This parameter represents the strength of the superposition state during quantum computations. A higher value allows for a broader range of fluctuations, simulating a more complex and dynamic cognitive state. It influences how much variability is introduced into the neural state during the simulation.
 
-1. **Natural Alignment**: Set the vibration frequency to **7.83 Hz** to connect to Earth's natural resonance, also known as the Schumann resonance.
-   ```csharp
-   public float vibrationFrequency = 7.83f; // Frequency of quantum vibrations in Hz
-   ```
+2. **Vibration Frequency (`vibrationFrequency`)**:
+   - Type: `float`
+   - Description: This parameter sets the frequency of quantum vibrations in Hz. It can be adjusted to reflect different aspects of quantum cognitive processing:
+     - **Natural Alignment**: Set to **7.83 Hz**, which corresponds to the Earth's natural resonance (Schumann frequency), providing a grounding in natural phenomena.
+     - **Energetic State**: Alternatively, it can be set to **40.0 Hz** to model a more energetic and complex aspect of quantum computations, simulating higher cognitive activities.
 
-2. **Energetic State**: Alternatively, you can keep the vibration frequency at **40.0 Hz** to model a more complex or energetic aspect of quantum computations.
-   ```csharp
-   public float vibrationFrequency = 40.0f; // Frequency of quantum vibrations in Hz
-   ```
+3. **Objective Reduction Threshold (`objectiveReductionThreshold`)**:
+   - Type: `float`
+   - Description: This threshold determines the level at which the neural state triggers a conscious moment. If the magnitude of the neural state exceeds this threshold, it simulates a moment of conscious awareness. Adjusting this value can affect the frequency of conscious moments in the simulation.
 
-Choose the option that best fits the thematic direction of your project and the phenomena you wish to simulate.
+4. **Neural Impact Strength (`neuralImpactStrength`)**:
+   - Type: `float`
+   - Description: This parameter defines the impact of an Orch OR event on the neural functions. It determines the new state of the neural system after a conscious moment occurs. A higher value results in a more significant reset of the neural state, which can influence how the AI adapts and learns over time.
 
 ## Implementation
 
